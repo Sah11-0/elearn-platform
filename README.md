@@ -4,3 +4,10 @@ The backend allows users to create, read, update and delete assignments.
 
 Backend completed using Node.js, Express.js, MongoDB
 
+INSTRUCTIONS
+
+1. Run "npm install -y"
+2. Set up .env file  - 
+    MONGODB_URI=(your database connection string)
+    PORT=(port number)
+4. Start the app - npm run start
