@@ -1,8 +1,8 @@
-A repository containing the backend for my elearn platform, built using the MVC Architecture.
+A repository containing the backend for my elearn platform, a project built using the MVC Architecture.
 
-The backend allows users to create, read, update and delete assignments. 
+The backend allows users to create, read, update and delete assignments. User authentification is included as well. 
 
-Backend completed using Node.js, Express.js, MongoDB
+Backend built using Node.js, Express.js, MongoDB
 
 INSTRUCTIONS
 
