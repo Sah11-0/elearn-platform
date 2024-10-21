@@ -1,6 +1,6 @@
 A repository containing the backend for "e-learn platform", a project built using the MVC Architecture.
 
-The backend allows users to create, read, update and delete assignments. User authentification is included as well. 
+The backend allows users to create, read, update and delete assignments. Authentication is also included.
 
 Backend built using Node.js, Express.js, MongoDB
 
