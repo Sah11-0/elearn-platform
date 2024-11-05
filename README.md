@@ -10,4 +10,5 @@ INSTRUCTIONS
 2. Set up .env file  - 
     MONGODB_URI=(your database connection string)
     PORT=(port number)
+3. Run app locally - npm run build
 4. Start the app - npm run start
