@@ -35,7 +35,7 @@ export const signup = async (req, res) => {
         })
 
         if (newUser) {
-            generateTokendAndSetCookie(newUser._id, res)
+            generateTokendAndSetCookie(newUser._id, res);
             await newUser.save();
 
             res.status(201).json({
@@ -61,7 +61,7 @@ export const login = async (req, res) => {
         const isPasswordCorrect = await bcrypt.compare(password, user?.password || "");
 
         if (!user || !isPasswordCorrect) {
-            return res.status(400).json({ error: "Invalid username of password" });
+            return res.status(400).json({ error: "Invalid username or password" });
         }
 
         generateTokendAndSetCookie(user._id, res);
